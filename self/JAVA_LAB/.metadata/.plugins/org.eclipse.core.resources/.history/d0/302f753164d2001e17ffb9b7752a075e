@@ -1,0 +1,27 @@
+package classpart;
+
+// 객체가 아님 클래스
+public class Student {
+
+	
+	// 멤버변수 = 필드
+	int studentID;
+	String studentName;
+	int grade;
+	String address;
+	
+	// 메서드(이름이 동사) = 기능 
+	public void showStudentInfor() {
+		System.out.println(studentName + "," +address);
+	}
+	
+	public String   getStudentName() {
+		return studentName;
+		
+	}
+	
+	public void setStudentName(String name) {
+		studentName = name;
+	}
+	
+}

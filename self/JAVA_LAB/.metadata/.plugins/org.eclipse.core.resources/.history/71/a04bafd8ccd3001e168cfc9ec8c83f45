@@ -1,0 +1,9 @@
+package Test;
+
+public class Student {
+
+	private int studentID;
+	private int studentName;
+	private int ArrayList<Subject> subjectList;
+	
+}
